@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Scorecard</title>
+  <style>
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    tr:hover {
+      background-color: #f5f5f5;
+    }
+    
+    .highlight {
+      background-color: yellow;
+    }
+  </style>
+</head>
+<body>
+  <h1>Scorecard</h1>
+  
+  <table>
+    <tr>
+      <th>Round</th>
+      <th>Team/Player</th>
+      <th>Score</th>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>Team A</td>
+      <td>100</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Team B</td>
+      <td>80</td>
+    </tr>
+  </table>
